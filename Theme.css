@@ -1,0 +1,70 @@
+:root[data-theme] {
+  --radius-md: 10px;
+
+  --bg-app: rgba(26, 21, 48, 0.15);
+  --bg-chrome: rgba(30, 24, 54, 0.30);
+  --bg-sidebar: rgba(28, 22, 51, 0.25);
+  --bg-editor: rgba(33, 26, 58, 0.15);
+  --bg-panel: rgba(29, 23, 52, 0.30);
+  --bg-status: rgba(24, 18, 41, 0.40);
+  --bg-elevated: rgba(42, 33, 72, 0.92);
+  --bg-input: rgba(21, 15, 38, 0.40);
+
+  --bg-hover: rgba(242, 143, 179, 0.08);
+  --bg-active: rgba(242, 143, 179, 0.16);
+  --border: rgba(196, 160, 255, 0.10);
+  --border-strong: rgba(196, 160, 255, 0.22);
+
+  --text: #ece4f7;
+  --text-muted: #b3a6cf;
+  --text-faint: #7f72a0;
+
+  --accent: #f28fb3;
+  --on-accent: #1a1530;
+
+  --ok: #7fd8be;
+  --warn: #f6c38a;
+  --danger: #ff6f91;
+}
+
+
+.monaco-editor,
+.monaco-editor .overflow-guard,
+.monaco-editor .inputarea.ime-input {
+  background-color: rgba(33, 26, 58, 0.12) !important;
+}
+
+.monaco-editor .margin,
+.monaco-editor-background {
+  background-color: transparent !important;
+}
+
+.monaco-editor .view-overlays .current-line,
+.monaco-editor .margin-view-overlays .current-line-margin {
+  background: rgba(242, 143, 179, 0.07) !important;
+  border: none !important;
+}
+
+.monaco-editor .line-numbers { color: #7f72a0 !important; }
+.monaco-editor .line-numbers.active-line-number { color: #f28fb3 !important; }
+
+.monaco-editor .minimap { opacity: 0.3; }
+.monaco-editor .scroll-decoration { box-shadow: none !important; }
+
+.monaco-editor .monaco-scrollable-element > .scrollbar > .slider {
+  background: rgba(196, 160, 255, 0.18) !important;
+}
+
+.monaco-editor .view-lines { text-shadow: 0 1px 2px rgba(10, 6, 24, 0.75); }
+
+[role="dialog"],
+[class*="modal" i]:not([class*="modal" i] *),
+[class*="settings" i]:not([class*="settings" i] *),
+[class*="preferences" i]:not([class*="preferences" i] *) {
+  background-color: rgba(22, 17, 40, 0.90) !important;
+  backdrop-filter: blur(20px) saturate(120%);
+}
+
+html, body {
+  background: #1a1530 url("https://raw.githubusercontent.com/Lucastakethel/Potassium_Dusk_Theme/main/dusk.jpg") center / cover fixed no-repeat !important;
+}
