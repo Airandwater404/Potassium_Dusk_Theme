@@ -65,6 +65,13 @@
   backdrop-filter: blur(20px) saturate(120%);
 }
 
+/* Show the wallpaper on the loading and login screens instead of Potassium's own picture. */
+:root[data-theme] .backdrop {
+  background: color-mix(in srgb, #1a1530 30%, transparent) !important;
+  -webkit-backdrop-filter: blur(6px) !important;
+  backdrop-filter: blur(6px) !important;
+}
+
 html, body {
   background: #1a1530 url("https://raw.githubusercontent.com/Airandwater404/Potassium_Dusk_Theme/main/dusk.jpg") center / cover fixed no-repeat !important;
 }
