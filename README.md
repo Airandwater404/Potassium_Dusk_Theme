@@ -2,7 +2,7 @@
 
 A sunset theme for the Potassium executor: soft pink accents, an indigo and lavender palette, see-through panels and a 4K dusk wallpaper behind the whole app.
 
-![Potassium with the Dusk theme: Start page and a script tab](screens.jpg)
+![Potassium with the Dusk theme: Start page and a script tab](ui.jpg)
 
 The wallpaper on its own: [`dusk.jpg`](dusk.jpg).
 
