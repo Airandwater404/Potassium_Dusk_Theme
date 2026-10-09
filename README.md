@@ -2,15 +2,15 @@
 
 A sunset theme for the Potassium executor: soft pink accents, an indigo and lavender palette, see-through panels and a 4K dusk wallpaper behind the whole app.
 
-![Potassium with the Dusk theme: Start page and a script tab](screenshot.jpg)
+![Potassium with the Dusk theme: Start page and a script tab](window.jpg)
 
 The wallpaper on its own: [`dusk.jpg`](dusk.jpg).
 
 ## Loading screen
 
-The theme also replaces Potassium's own loading and login picture with its wallpaper, softly blurred.
+The theme also replaces Potassium's own loading and login picture with its wallpaper, softly blurred. Potassium's default loading picture (on the right) is the same artwork without the blur.
 
-![Dusk theme loading screen](loading.jpg)
+![Dusk theme loading screen next to Potassium's default](loading-compare.jpg)
 
 ## Install
 
